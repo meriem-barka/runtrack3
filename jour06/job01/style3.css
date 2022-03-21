@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+
+    body{
+        background-color: #275fa0;
+    }
+    
+}
