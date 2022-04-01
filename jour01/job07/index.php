@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-</head>
-<body>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Konami Code</title>
+        <!-- <link href="style.css" type="text/css" rel="stylesheet"/> -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="Container">
+            <h1>Code</h1>
+            <p>Click </p>
+        </div>
+    </body>
 </html>

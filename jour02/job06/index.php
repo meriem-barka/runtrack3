@@ -8,7 +8,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-
+    <p id="color"></p>
  
 </body>
 </html>
