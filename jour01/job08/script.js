@@ -1,16 +1,26 @@
 
-function sommenombrespremiers(num1, num2) {  
+function nbrPremier(nbr) {
 
-    for (let index = 2; index <= 100 ; index++) {
+    value = true 
 
-        if (num1 % index && num2 % index === 0) {
-            
-            console.log(sommenombrespremiers(2));
+    for(let i = 2; i < nbr; i++){
+        if(nbr%i == 0){
+            value = false; 
         }
-        
+        return value;
+    }  
+}
+
+function sommenombrespremiers(num1, num2){  
+
+    nbrPremier(num1);
+    nbrPremier(num2); 
+
+    if (nbrPremier(num1) == true && nbrPremier(num2) == true) {
+        console.log(num1 + num2);
     }
 }
 
-sommenombrespremiers();
+sommenombrespremiers(5,7);
 
   
