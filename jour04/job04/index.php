@@ -7,14 +7,23 @@
     <title>Document</title>
     <script src="script.js"></script>
 </head>
-<body>
 
-    <article id="citation">
-        <h1>citation</h1>
-        <p>"La vie a beaucoup plus d’imagination que nous”.</p>
-    </article>  
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id: </th>
+                    <th>Nom: </th>
+                    <th>Prénom: </th>
+                    <th>email: </th>
+                </tr>
+            </thead>
 
-    <button id='button'>Validé</button>
-    
-</body>
+            <tbody id='tbody'>
+                
+            </tbody>
+        </table> 
+
+        <button type="submit" id="button">Update</button>
+    </body>
 </html>

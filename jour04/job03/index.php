@@ -11,28 +11,14 @@
 
     <body>
         <h1>Récuperation des information avec le fetch</h1>
+        <label>Id</label>
+        <input type='text' id='id'>
 
-        <form id="form" action="#" method="post">
-            <div>
-                <label for="id">Id</label>
-                <input type="text" name="id" id="id">
-            </div>
+        <label>Name</label>
+        <input type='text' id='name'>
 
-            <div>
-                <label for="nom">Nom</label>
-                <input type="text" name="nom" id="nom">
-            </div>
-
-            <div>
-                <label for="type">List déroulante</label>
-                <select name="type" id="select">
-                    <option value=""></option>
-                </select>
-            </div>
-
-            <input type="button" value="filtrer" id="filter">
-        </form>
-
-        <div></div>
+        <select name="select" id="select"></select>
+        
+        <button id='filter'>Filter</button>
     </body>
 </html>
